@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    align-items: center;
+    background-color: rgb(84, 153, 221);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: rgb(215, 135, 237);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    color: rgb(154, 58, 180);
+}
